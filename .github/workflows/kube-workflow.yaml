@@ -1,5 +1,10 @@
 name: Event Workflow
 
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
 env:
   GH_DEBUG: api
 
